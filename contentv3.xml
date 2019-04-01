@@ -1,0 +1,2977 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="5" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value="Transformada de Laplace"></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value="Juan Rios, Alexander Arias, Mauricio Correa"></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value="presencial"></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value="classroom"></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value="La Transformada de Laplace permite convertir un sistema de tiempo (t) a frecuencia (s)"></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_extraHeadContent"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_fieldValidationInfo"></string>
+  <dictionary>
+   <unicode role="key" value="all"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_title"></unicode>
+     <unicode value="pp_lang"></unicode>
+     <unicode value="pp_description"></unicode>
+     <unicode value="pp_author"></unicode>
+     <unicode value="pp_newlicense"></unicode>
+    </list>
+   </dictionary>
+   <unicode role="key" value="procomun"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_learningResourceType"></unicode>
+    </list>
+    <unicode role="key" value="values_from_list"></unicode>
+    <dictionary>
+     <unicode role="key" value="pp_learningResourceType"></unicode>
+     <list>
+      <unicode value="master class"></unicode>
+      <unicode value="closed exercise or problem"></unicode>
+      <unicode value="real project"></unicode>
+      <unicode value="didactic game"></unicode>
+      <unicode value="webquest"></unicode>
+      <unicode value="open problem"></unicode>
+      <unicode value="simulation"></unicode>
+      <unicode value="questionnaire"></unicode>
+      <unicode value="conceptual map"></unicode>
+     </list>
+    </dictionary>
+   </dictionary>
+  </dictionary>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value="learner"></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="1"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="Exelearning_-_TransformadaLaplace"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="15"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="9"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="3">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Inicio - Transformada de Laplace"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.genericidevice.GenericIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Objectives"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="Objectives describe the expected outcomes of the learning and should
+define what the learners will be able to do when they have completed the
+learning tasks."></unicode>
+        <string role="key" value="_tip"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="class_"></string>
+        <unicode value="objectives"></unicode>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="1"></int>
+        <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+        <int value="11"></int>
+        <string role="key" value="fields"></string>
+        <list>
+         <instance class="exe.engine.field.TextAreaField" reference="2">
+          <dictionary>
+           <string role="key" value="_id"></string>
+           <unicode value="46_2"></unicode>
+           <string role="key" value="_idevice"></string>
+           <reference key="1"></reference>
+           <string role="key" value="_instruc"></string>
+           <unicode value="Type the learning objectives for this resource."></unicode>
+           <string role="key" value="_name"></string>
+           <unicode value="Objectives"></unicode>
+           <string role="key" value="anchor_names"></string>
+           <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
+           <string role="key" value="content_w_resourcePaths"></string>
+           <unicode content="true" value="&lt;p&gt;- Conocer la historia de la Transformada de Laplace&lt;/p&gt;
+&lt;p&gt;- Identificar algunas aplicaciones de la Transformada de Laplace&lt;/p&gt;
+&lt;p&gt;- Demostrar la Transformada de Laplace por medio de la Integral&lt;/p&gt;
+&lt;p&gt;- Conocer las tablas de las transformadas de Laplace&lt;/p&gt;
+&lt;p&gt;- Convertir funciones a s por medio de la Integral&lt;/p&gt;
+&lt;p&gt;- Convertir funciones a s por medio de las tablas&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Autores: Juan Rios, Mauricio Correa, Alexander Arias&lt;/p&gt;"></unicode>
+           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+           <int value="4"></int>
+           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="htmlTag"></string>
+           <string value="div"></string>
+           <string role="key" value="images"></string>
+           <instance class="exe.engine.galleryidevice.GalleryImages">
+            <dictionary>
+             <string role="key" value=".listitems"></string>
+             <list></list>
+             <string role="key" value="idevice"></string>
+             <reference key="2"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="intlinks_to_anchors"></string>
+           <dictionary></dictionary>
+           <string role="key" value="nextImageId"></string>
+           <int value="0"></int>
+           <string role="key" value="parentNode"></string>
+           <reference key="3"></reference>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="icon"></string>
+        <unicode value="objectives"></unicode>
+        <string role="key" value="id"></string>
+        <unicode value="13"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="nextFieldId"></string>
+        <int value="3"></int>
+        <string role="key" value="originalicon"></string>
+        <unicode value="objectives"></unicode>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list>
+         <string value="common.js"></string>
+        </list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="4">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Free Text"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="childs"></string>
+        <list></list>
+        <string role="key" value="content"></string>
+        <instance class="exe.engine.field.TextAreaField" reference="6">
+         <dictionary>
+          <string role="key" value="_id"></string>
+          <int value="85"></int>
+          <string role="key" value="_idevice"></string>
+          <reference key="4"></reference>
+          <string role="key" value="_instruc"></string>
+          <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+          <string role="key" value="_name"></string>
+          <unicode value="Free Text"></unicode>
+          <string role="key" value="anchor_names"></string>
+          <list></list>
+          <string role="key" value="anchors_linked_from_fields"></string>
+          <dictionary></dictionary>
+          <string role="key" value="content_w_resourcePaths"></string>
+          <unicode content="true" value="&lt;div&gt;
+&lt;h1 class=&quot;authorName&quot;&gt;&lt;span itemprop=&quot;name&quot;&gt;Pierre-Simon Laplace&lt;/span&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;resources/Laplace.jpg&quot; alt=&quot;Pierre-Simon Laplace&quot; title=&quot;Pierre-Simon Laplace&quot; width=&quot;200&quot; height=&quot;264&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&quot;https://www.goodreads.com/author/show/324846.Pierre_Simon_Laplace]&quot;&gt;https://www.goodreads.com/author/show/324846.Pierre_Simon_Laplace]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;dataTitle&quot;&gt;Born&lt;/div&gt;
+&lt;p&gt;&lt;span&gt;in Beaumont-en-Auge, France &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;dataItem&quot; itemprop=&quot;birthDate&quot;&gt;March 23, 1749&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;dataTitle&quot;&gt;Died&lt;/div&gt;
+&lt;div class=&quot;dataItem&quot; itemprop=&quot;deathDate&quot;&gt;March 05, 1827&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;dataTitle&quot;&gt;Website&lt;/div&gt;
+&lt;div class=&quot;dataItem&quot;&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; itemprop=&quot;url&quot; href=&quot;http://en.wikipedia.org/wiki/Pierre-Simon_Laplace&quot;&gt;http://en.wikipedia.org/wiki/Pierre-Simon_Laplace&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;dataTitle&quot;&gt;Genre&lt;/div&gt;
+&lt;div class=&quot;dataItem&quot;&gt;&lt;a href=&quot;https://www.goodreads.com/genres/mathematics&quot;&gt;Mathematics&lt;/a&gt;,&lt;span&gt; &lt;/span&gt;&lt;a href=&quot;https://www.goodreads.com/genres/science&quot;&gt;Science&lt;/a&gt;,&lt;span&gt; &lt;/span&gt;&lt;a href=&quot;https://www.goodreads.com/genres/astronomy&quot;&gt;Astronomy&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;dataTitle&quot;&gt;Influences&lt;/div&gt;
+&lt;div class=&quot;dataItem&quot;&gt;&lt;span id=&quot;freeTextContainer566311586482740831&quot;&gt;&lt;a href=&quot;https://www.goodreads.com/author/show/369557.Antoine_Lavoisier&quot; title=&quot;Antoine Lavoisier&quot; rel=&quot;nofollow&quot;&gt;Antoine Lavoisier&lt;/a&gt;,&lt;span&gt; &lt;/span&gt;&lt;a href=&quot;https://www.goodreads.com/author/show/7464974.Sim_on_Denis_Poisson&quot; title=&quot;Siméon Denis Poisson&quot; rel=&quot;nofollow&quot;&gt;Siméon Denis Poisson&lt;/a&gt;,&lt;span&gt; &lt;/span&gt;&lt;a href=&quot;https://www.goodreads.com/author/show/5356579.Joseph_Louis_Lagrange&quot; title=&quot;Joseph-Louis Lagrange&quot; rel=&quot;nofollow&quot;&gt;Joseph-Louis Lagrange&lt;/a&gt;,&lt;span&gt; &lt;/span&gt;&lt;a href=&quot;https://www.goodreads.com/author/show/1303754.William_Herschel&quot; title=&quot;William Herschel&quot; rel=&quot;nofollow&quot;&gt;Willia&lt;/a&gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;a data-text-id=&quot;566311586482740831&quot; href=&quot;https://www.goodreads.com/author/show/324846.Pierre_Simon_Laplace#&quot; onclick=&quot;swapContent($(this));; return false;&quot;&gt;...more&lt;/a&gt;&lt;/div&gt;"></unicode>
+          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+          <int value="4"></int>
+          <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+          <int value="2"></int>
+          <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+          <int value="3"></int>
+          <string role="key" value="htmlTag"></string>
+          <string value="div"></string>
+          <string role="key" value="images"></string>
+          <instance class="exe.engine.galleryidevice.GalleryImages">
+           <dictionary>
+            <string role="key" value=".listitems"></string>
+            <list>
+             <instance class="exe.engine.galleryidevice.GalleryImage">
+              <dictionary>
+               <string role="key" value="_caption"></string>
+               <instance class="exe.engine.field.TextField">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <int value="214"></int>
+                 <string role="key" value="_idevice"></string>
+                 <none></none>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="content"></string>
+                 <string value=""></string>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                </dictionary>
+               </instance>
+               <string role="key" value="_id"></string>
+               <unicode value="14_85.1"></unicode>
+               <string role="key" value="_imageResource"></string>
+               <instance class="exe.engine.resource.Resource" reference="7">
+                <dictionary>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="4"></reference>
+                 <string role="key" value="_package"></string>
+                 <reference key="5"></reference>
+                 <string role="key" value="_storageName"></string>
+                 <string value="Laplace.jpg"></string>
+                 <string role="key" value="_userName"></string>
+                 <string value="c:\\users\\itm1\\appdata\\local\\temp\\tmprwomel\\Laplace.jpg"></string>
+                 <string role="key" value="checksum"></string>
+                 <string value="f607835141e22881723aff5a05927d3a"></string>
+                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="warningMsg"></string>
+                 <string value=""></string>
+                </dictionary>
+               </instance>
+               <string role="key" value="_parent"></string>
+               <reference key="6"></reference>
+               <string role="key" value="_thumbnailResource"></string>
+               <none></none>
+               <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+               <int value="3"></int>
+               <string role="key" value="makeThumbnail"></string>
+               <bool value="0"></bool>
+              </dictionary>
+             </instance>
+            </list>
+            <string role="key" value="idevice"></string>
+            <reference key="6"></reference>
+           </dictionary>
+          </instance>
+          <string role="key" value="intlinks_to_anchors"></string>
+          <dictionary></dictionary>
+          <string role="key" value="nextImageId"></string>
+          <int value="2"></int>
+          <string role="key" value="parentNode"></string>
+          <reference key="3"></reference>
+         </dictionary>
+        </instance>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+        <int value="7"></int>
+        <string role="key" value="icon"></string>
+        <string value=""></string>
+        <string role="key" value="id"></string>
+        <unicode value="14"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parent"></string>
+        <none></none>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="type"></string>
+        <none></none>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list>
+         <reference key="7"></reference>
+         <instance class="exe.engine.resource.Resource" reference="36">
+          <dictionary>
+           <string role="key" value="_idevice"></string>
+           <reference key="4"></reference>
+           <string role="key" value="_package"></string>
+           <reference key="5"></reference>
+           <string role="key" value="_storageName"></string>
+           <string value="Laplace.jpg"></string>
+           <string role="key" value="_userName"></string>
+           <string value="c:\\users\\itm1\\appdata\\local\\temp\\tmprwomel\\Laplace.jpg"></string>
+           <string role="key" value="checksum"></string>
+           <string value="f607835141e22881723aff5a05927d3a"></string>
+           <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="warningMsg"></string>
+           <string value=""></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="5"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="website"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Inicio%20-%20Transformada%20de%20Laplace"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="10">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tema 1. Definición e Historia"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="8">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="9">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="8"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list>
+              <unicode value="Contexto"></unicode>
+              <unicode value="Laplace"></unicode>
+             </list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary>
+              <unicode role="key" value="Contexto"></unicode>
+              <list></list>
+              <unicode role="key" value="Laplace"></unicode>
+              <list></list>
+             </dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;a name=&quot;Contexto&quot;&gt;&lt;/a&gt;&lt;b&gt;Contexto&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;La Transformada de Laplace es una técnica Matemática que forma parte de ciertas &lt;i&gt;transformadas integrales&lt;/i&gt; como la transformada de Fourier, la transformada de Hilbert, y la transformada de Mellin entre otras. Estas transformadas están definidas por medio de una integral impropia y &lt;b&gt;cambian una función en una variable de entrada en otra función en otra variable&lt;/b&gt;. La transformada de Laplace puede ser usada para resolver Ecuaciones Diferenciales Lineales y Ecuaciones Integrales. Aunque se pueden resolver algún tipo de ED con coeficientes variables, en general se aplica a problemas con coeficientes constantes. Un requisito adicional es el conocimiento de las condiciones iniciales a la misma ED. Su mayor ventaja sale a relucir cuando la función en la variable independiente que aparece en la ED es una función seccionada. &lt;/p&gt;
+&lt;p&gt;Cuando se resuelven ED usando la técnica de la transformada, se cambia una ecuación diferencial en un problema algebraico. La metodología consiste en aplicar la transformada a la ED y posteriormente usar las propiedades de la transformada. El problema de ahora consiste en encontrar una función en la variable independiente tenga una cierta expresión como transformada.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;La transformada de Laplace recibe su nombre en honor del matemático francés &lt;a href=&quot;https://es.wikipedia.org/wiki/Pierre-Simon_Laplace&quot; title=&quot;Pierre-Simon Laplace&quot;&gt;Pierre-Simon Laplace&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&quot;https://es.wikipedia.org/wiki/Transformada_de_Laplace]&quot;&gt;https://es.wikipedia.org/wiki/Transformada_de_Laplace]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;Laplace&quot;&gt;&lt;/a&gt;&lt;b&gt;Pierre Simon Marquéz de Laplace &lt;/b&gt;(1749-1827) matemático y astrónomo francés tan famoso en su tiempo que se le conocía como el Newton de Francia. Sus principales campos de interés fueron la Mecánica Celeste, o movimiento planetario, la teoría de probabilidades, y el progreso personal.&lt;/p&gt;
+&lt;p&gt;[http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/]&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="9"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="10"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="10"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="5"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list>
+         <reference key="9"></reference>
+        </list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio%20-%20Transformada%20de%20Laplace:Tema%201.%20Definici%C3%B3n%20e%20Historia"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="13">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tema 2. Aplicaciones"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="11">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="12">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="11"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list>
+              <unicode value="SECTION1263730689"></unicode>
+             </list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary>
+              <unicode role="key" value="SECTION1263730689"></unicode>
+              <list></list>
+             </dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;b&gt;&lt;a name=&quot;SECTION1263730689&quot;&gt;&lt;/a&gt;Aplicaciones y transformada de Laplace &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a name=&quot;tex2html165&quot; href=&quot;https://tecdigital.tec.ac.cr/revistamatematica/cursos-linea/EcuacionesDiferenciales/EDO-Geo/edo-cap5-geo/laplace/node12.html&quot;&gt;Solución de ecuaciones diferenciales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;tex2html166&quot; href=&quot;https://tecdigital.tec.ac.cr/revistamatematica/cursos-linea/EcuacionesDiferenciales/EDO-Geo/edo-cap5-geo/laplace/node13.html&quot;&gt;Sistemas mecánicos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;tex2html167&quot; href=&quot;https://tecdigital.tec.ac.cr/revistamatematica/cursos-linea/EcuacionesDiferenciales/EDO-Geo/edo-cap5-geo/laplace/node14.html&quot;&gt;Ecuaciones Integrales&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="12"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="13"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="13"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="3"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="5"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list>
+         <reference key="12"></reference>
+        </list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio%20-%20Transformada%20de%20Laplace:Tema%202.%20Aplicaciones"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="16">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tema 3. Modelo matemático"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="14">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="15">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="14"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/im1.gif&quot; alt=&quot;transformada&quot; title=&quot;transformada&quot; width=&quot;997&quot; height=&quot;271&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;La integral de Laplace es:&lt;/p&gt;
+&lt;div class=&quot;exe-math show-code exe-math-engine position-center&quot;&gt;
+&lt;p class=&quot;exe-math-img&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;resources/eXe_LaTeX_math_1.gif&quot; width=&quot;152&quot; height=&quot;60&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;exe-math-code&quot;&gt;L(s)=\int_{0}^{\infty} {f(t)e^{-st}}dt&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;La ecuación anterior fue realizada en:&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php]&quot;&gt;https://www.codecogs.com/latex/eqneditor.php]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;El código de la ecuación es:&lt;/p&gt;
+&lt;p&gt;L(s)=\int_{0}^{\infty} {f(t)e^{-st}}dt&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Para consultar Latex&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&quot;http://elclubdelautodidacta.es/wp/2011/07/latex-capitulo-1-introduccion/]&quot;&gt;http://elclubdelautodidacta.es/wp/2011/07/latex-capitulo-1-introduccion/]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="212"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="6_85.8"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="17">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="14"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="5"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="eXe_LaTeX_math_1.gif"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="c:\\users\\itm1\\appdata\\local\\temp\\tmprwomel\\eXe_LaTeX_math_1.gif"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="127b060176c43245fe420cfa81745e25"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="15"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="213"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="6_85.9"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="18">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="14"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="5"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="im1.gif"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="c:\\users\\itm1\\appdata\\local\\temp\\tmprwomel\\im1.gif"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="a8f97c0a72e1b3a1b27d8f7e55e275ea"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="15"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+               </list>
+               <string role="key" value="idevice"></string>
+               <reference key="15"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="10"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="16"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="16"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="17"></reference>
+            <instance class="exe.engine.resource.Resource" reference="31">
+             <dictionary>
+              <string role="key" value="_idevice"></string>
+              <reference key="14"></reference>
+              <string role="key" value="_package"></string>
+              <reference key="5"></reference>
+              <string role="key" value="_storageName"></string>
+              <string value="eXe_LaTeX_math_1.gif"></string>
+              <string role="key" value="_userName"></string>
+              <string value="c:\\users\\itm1\\appdata\\local\\temp\\tmprwomel\\eXe_LaTeX_math_1.gif"></string>
+              <string role="key" value="checksum"></string>
+              <string value="127b060176c43245fe420cfa81745e25"></string>
+              <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="warningMsg"></string>
+              <string value=""></string>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.resource.Resource" reference="32">
+             <dictionary>
+              <string role="key" value="_idevice"></string>
+              <reference key="14"></reference>
+              <string role="key" value="_package"></string>
+              <reference key="5"></reference>
+              <string role="key" value="_storageName"></string>
+              <string value="eXe_LaTeX_math_1.gif"></string>
+              <string role="key" value="_userName"></string>
+              <string value="c:\\users\\itm1\\appdata\\local\\temp\\tmprwomel\\eXe_LaTeX_math_1.gif"></string>
+              <string role="key" value="checksum"></string>
+              <string value="127b060176c43245fe420cfa81745e25"></string>
+              <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="warningMsg"></string>
+              <string value=""></string>
+             </dictionary>
+            </instance>
+            <reference key="18"></reference>
+            <instance class="exe.engine.resource.Resource" reference="33">
+             <dictionary>
+              <string role="key" value="_idevice"></string>
+              <reference key="14"></reference>
+              <string role="key" value="_package"></string>
+              <reference key="5"></reference>
+              <string role="key" value="_storageName"></string>
+              <string value="im1.gif"></string>
+              <string role="key" value="_userName"></string>
+              <string value="c:\\users\\itm1\\appdata\\local\\temp\\tmprwomel\\im1.gif"></string>
+              <string role="key" value="checksum"></string>
+              <string value="a8f97c0a72e1b3a1b27d8f7e55e275ea"></string>
+              <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="warningMsg"></string>
+              <string value=""></string>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.resource.Resource" reference="34">
+             <dictionary>
+              <string role="key" value="_idevice"></string>
+              <reference key="14"></reference>
+              <string role="key" value="_package"></string>
+              <reference key="5"></reference>
+              <string role="key" value="_storageName"></string>
+              <string value="im1.gif"></string>
+              <string role="key" value="_userName"></string>
+              <string value="c:\\users\\itm1\\appdata\\local\\temp\\tmprwomel\\im1.gif"></string>
+              <string role="key" value="checksum"></string>
+              <string value="a8f97c0a72e1b3a1b27d8f7e55e275ea"></string>
+              <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="warningMsg"></string>
+              <string value=""></string>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.resource.Resource" reference="35">
+             <dictionary>
+              <string role="key" value="_idevice"></string>
+              <reference key="14"></reference>
+              <string role="key" value="_package"></string>
+              <reference key="5"></reference>
+              <string role="key" value="_storageName"></string>
+              <string value="im1.gif"></string>
+              <string role="key" value="_userName"></string>
+              <string value="c:\\users\\itm1\\appdata\\local\\temp\\tmprwomel\\im1.gif"></string>
+              <string role="key" value="checksum"></string>
+              <string value="a8f97c0a72e1b3a1b27d8f7e55e275ea"></string>
+              <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="warningMsg"></string>
+              <string value=""></string>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="5"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio%20-%20Transformada%20de%20Laplace:Tema%203.%20Modelo%20matem%C3%A1tico"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="21">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tema 4. Tablas de Transformadas"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="19">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="20">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="19"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list>
+              <unicode value="Tabla"></unicode>
+              <unicode value="T1"></unicode>
+              <unicode value="Tt"></unicode>
+              <unicode value="Tt2"></unicode>
+              <unicode value="Ttn"></unicode>
+              <unicode value="Tta"></unicode>
+              <unicode value="Texp"></unicode>
+              <unicode value="Tcos"></unicode>
+              <unicode value="Tsin"></unicode>
+              <unicode value="Tcosh"></unicode>
+              <unicode value="Tsinh"></unicode>
+             </list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary>
+              <unicode role="key" value="T1"></unicode>
+              <list></list>
+              <unicode role="key" value="Tabla"></unicode>
+              <list></list>
+              <unicode role="key" value="Tcos"></unicode>
+              <list></list>
+              <unicode role="key" value="Tcosh"></unicode>
+              <list></list>
+              <unicode role="key" value="Texp"></unicode>
+              <list></list>
+              <unicode role="key" value="Tsin"></unicode>
+              <list></list>
+              <unicode role="key" value="Tsinh"></unicode>
+              <list></list>
+              <unicode role="key" value="Tt"></unicode>
+              <list></list>
+              <unicode role="key" value="Tt2"></unicode>
+              <list></list>
+              <unicode role="key" value="Tta"></unicode>
+              <list></list>
+              <unicode role="key" value="Ttn"></unicode>
+              <list></list>
+             </dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;a name=&quot;Tabla&quot;&gt;&lt;/a&gt;&lt;b&gt;Tabla de Transformadas&lt;/b&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a name=&quot;T1&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Obtencion1&quot;&gt;Obtención&lt;/a&gt; &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq195.gif&quot; alt=&quot;eq195&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Tt&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Obtencion2&quot;&gt;Obtención&lt;/a&gt;&lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq196.gif&quot; alt=&quot;eq196&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Tt2&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Obtencion3&quot;&gt;Obtención&lt;/a&gt;&lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq197.gif&quot; alt=&quot;eq197&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Ttn&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Obtencion4&quot;&gt;Obtención&lt;/a&gt; Para &lt;i&gt;n&lt;/i&gt; entero&lt;br /&gt;: &lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq198.gif&quot; alt=&quot;eq198&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Tta&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Obtencion5&quot;&gt;Obtención&lt;/a&gt; Para &lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq190.gif&quot; alt=&quot;eq190&quot; vspace=&quot;5&quot; hspace=&quot;3&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq199.gif&quot; alt=&quot;eq199&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Gama&quot;&gt;Nota &lt;/a&gt;sobre la función Gamma. &lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Texp&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Obtencion6&quot;&gt;Obtención&lt;/a&gt; Para &lt;i&gt;s &amp;gt; a&lt;/i&gt;&lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq200.gif&quot; alt=&quot;eq200&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Tcos&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Obtencion7&quot;&gt;Obtención&lt;/a&gt;&lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq201.gif&quot; alt=&quot;eq201&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Tsin&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Obtencion8&quot;&gt;Obtención&lt;/a&gt; &lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq202.gif&quot; alt=&quot;eq202&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Tcosh&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Obtencion9&quot;&gt;Obtención&lt;/a&gt; &lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq203.gif&quot; alt=&quot;eq203&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Tsinh&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Obtencion10&quot;&gt;Obtención&lt;/a&gt; &lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq204.gif&quot; alt=&quot;eq204&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="20"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="21"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="9"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="21"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="6"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="5"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list>
+         <reference key="20"></reference>
+        </list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio%20-%20Transformada%20de%20Laplace:Tema%204.%20Tablas%20de%20Transformadas"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="24">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tema 5. Propiedades de las transformadas"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="22">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="23">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="22"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list>
+              <unicode value="Propiedades"></unicode>
+              <unicode value="Teorema1"></unicode>
+              <unicode value="Teorema2"></unicode>
+              <unicode value="Teorema3"></unicode>
+              <unicode value="Teorema4"></unicode>
+              <unicode value="Teorema5"></unicode>
+              <unicode value="Teorema6"></unicode>
+              <unicode value="Teorema7"></unicode>
+              <unicode value="Teorema8"></unicode>
+              <unicode value="Teorema9"></unicode>
+              <unicode value="Teorema10"></unicode>
+             </list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary>
+              <unicode role="key" value="Propiedades"></unicode>
+              <list></list>
+              <unicode role="key" value="Teorema1"></unicode>
+              <list></list>
+              <unicode role="key" value="Teorema10"></unicode>
+              <list></list>
+              <unicode role="key" value="Teorema2"></unicode>
+              <list></list>
+              <unicode role="key" value="Teorema3"></unicode>
+              <list></list>
+              <unicode role="key" value="Teorema4"></unicode>
+              <list></list>
+              <unicode role="key" value="Teorema5"></unicode>
+              <list></list>
+              <unicode role="key" value="Teorema6"></unicode>
+              <list></list>
+              <unicode role="key" value="Teorema7"></unicode>
+              <list></list>
+              <unicode role="key" value="Teorema8"></unicode>
+              <list></list>
+              <unicode role="key" value="Teorema9"></unicode>
+              <list></list>
+             </dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;a name=&quot;Propiedades&quot;&gt;&lt;/a&gt;&lt;b&gt;Propiedades de la Transformada&lt;/b&gt;&lt;/p&gt;
+&lt;blockquote&gt;En las siguientes propiedades se asume que las funciones &lt;i&gt;f(t)&lt;/i&gt; y &lt;i&gt;g(t)&lt;/i&gt; con funciones que poseen transformada de Laplace. &lt;br /&gt;Las demostraciones pueden ser obtenidas en el libro de Zill: &lt;i&gt;A first course in Differential Equations with modelling applications&lt;/i&gt;&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a name=&quot;Teorema1&quot;&gt;&lt;/a&gt;&lt;b&gt;Linealidad&lt;/b&gt; (&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/tma4.htm#Ejemplos1&quot;&gt;Ejemplos&lt;/a&gt;, &lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Demostracion1&quot;&gt;Demostracion&lt;/a&gt;, &lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Inicio&quot;&gt;Ir a índice&lt;/a&gt; ) &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq020.gif&quot; alt=&quot;eq020&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;
+&lt;blockquote&gt;&lt;b&gt;Idea&lt;/b&gt;&lt;br /&gt;La transformada de Laplace se &lt;b&gt;&lt;i&gt;distribuye&lt;/i&gt; sobre las sumas o restas y &lt;i&gt;saca&lt;/i&gt; constantes que multiplican&lt;/b&gt;.&lt;/blockquote&gt;
+&lt;br /&gt;Versión para la inversa: &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq021.gif&quot; alt=&quot;eq021&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Teorema2&quot;&gt;&lt;/a&gt;&lt;b&gt;Primer Teorema de Traslación&lt;/b&gt; (&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/tma4.htm#Ejemplos2&quot;&gt;Ejemplos&lt;/a&gt;, &lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Demostracion2&quot;&gt;Demostracion&lt;/a&gt;, &lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Inicio&quot;&gt;Ir a índice&lt;/a&gt; ) &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq022.gif&quot; alt=&quot;eq022&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;donde&lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq023.gif&quot; alt=&quot;eq023&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;
+&lt;blockquote&gt;&lt;b&gt;Idea&lt;/b&gt;&lt;br /&gt;La transformada de Laplace se &lt;b&gt;&lt;i&gt;convierte&lt;/i&gt; un factor exponencial en una &lt;i&gt;traslación&lt;/i&gt; en la variable &lt;i&gt;s&lt;/i&gt;&lt;/b&gt;.&lt;/blockquote&gt;
+Versión para la inversa: &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq024.gif&quot; alt=&quot;eq024&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Teorema3&quot;&gt;&lt;/a&gt;&lt;b&gt;Teorema de la transformada de la derivada&lt;/b&gt; (&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/tma4.htm#Ejemplos3&quot;&gt;Ejemplos&lt;/a&gt;, &lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Demostracion3&quot;&gt;Demostracion&lt;/a&gt;, &lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Inicio&quot;&gt;Ir a índice&lt;/a&gt; ) &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq025.gif&quot; alt=&quot;eq025&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt;
+&lt;blockquote&gt;&lt;b&gt;Idea&lt;/b&gt;&lt;br /&gt;La transformada de Laplace &lt;b&gt;&lt;i&gt;cancela&lt;/i&gt; la derivada &lt;i&gt;multiplicando&lt;/i&gt; por la variable &lt;i&gt;s&lt;/i&gt;&lt;/b&gt;.&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Teorema4&quot;&gt;&lt;/a&gt;&lt;b&gt;Teorema de la transformada de la integral&lt;/b&gt; (&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/tma4.htm#Ejemplos4&quot;&gt;Ejemplos&lt;/a&gt;,&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Inicio&quot;&gt;Ir a índice&lt;/a&gt; ) &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq161.gif&quot; alt=&quot;eq161&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Teorema5&quot;&gt;&lt;/a&gt;&lt;b&gt;Teorema de la integral de la transformada&lt;/b&gt; (&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/tma4.htm#Ejemplos5&quot;&gt;Ejemplos&lt;/a&gt;,&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Inicio&quot;&gt;Ir a índice&lt;/a&gt; ) &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq162.gif&quot; alt=&quot;eq162&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;Siempre y cuando exista &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq163.gif&quot; alt=&quot;eq163&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Teorema6&quot;&gt;&lt;/a&gt;&lt;b&gt;Teorema de la derivada de la transformada&lt;/b&gt; (&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/tma4.htm#Ejemplos6&quot;&gt;Ejemplos&lt;/a&gt;,&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Inicio&quot;&gt;Ir a índice&lt;/a&gt; ) &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq164.gif&quot; alt=&quot;eq164&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Teorema7&quot;&gt;&lt;/a&gt;&lt;b&gt;Transformada de la función escalón&lt;/b&gt; (&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/tma4.htm#Ejemplos7&quot;&gt;Ejemplos&lt;/a&gt;,&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Inicio&quot;&gt;Ir a índice&lt;/a&gt; ) &lt;br /&gt;
+&lt;blockquote&gt;Si &lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq030.gif&quot; alt=&quot;eq030&quot; vspace=&quot;5&quot; hspace=&quot;3&quot; align=&quot;MIDDLE&quot; /&gt; representa la &lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#funcion_escalon&quot;&gt;función escalón unitario&lt;/a&gt; entonces &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq165.gif&quot; alt=&quot;eq165&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Teorema8&quot;&gt;&lt;/a&gt;&lt;b&gt;Segundo teorema de Traslación&lt;/b&gt; (&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/tma4.htm#Ejemplos8&quot;&gt;Ejemplos&lt;/a&gt;,&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Inicio&quot;&gt;Ir a índice&lt;/a&gt; ) &lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq166.gif&quot; alt=&quot;eq166&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;Teorema9&quot;&gt;&lt;/a&gt;&lt;b&gt;Transformada de una función periódica&lt;/b&gt; (&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/tma4.htm#Ejemplos9&quot;&gt;Ejemplos&lt;/a&gt;,&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Inicio&quot;&gt;Ir a índice&lt;/a&gt; ) &lt;br /&gt;
+&lt;blockquote&gt;Si &lt;i&gt;f(t)&lt;/i&gt; es una &lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#funcion_periodica&quot;&gt;función periódica &lt;/a&gt; con período &lt;i&gt;T&lt;/i&gt;:&lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq167.gif&quot; alt=&quot;eq167&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt; &lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a name=&quot;Teorema10&quot;&gt;&lt;/a&gt;&lt;b&gt;Teorema de la Convolución &lt;/b&gt; (&lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/tma4.htm#Ejemplos10&quot;&gt;Ejemplos&lt;/a&gt;, &lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Inicio&quot;&gt;Ir a índice&lt;/a&gt;) &lt;br /&gt;
+&lt;blockquote&gt;Si &lt;i&gt;f * g&lt;/i&gt; representa la &lt;a href=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/#Convolucion&quot;&gt;convolución &lt;/a&gt; entre las funciones &lt;i&gt;f&lt;/i&gt; y &lt;i&gt;g&lt;/i&gt; entonces&lt;br /&gt;&lt;img src=&quot;http://www.mty.itesm.mx/etie/deptos/m/ma-841/laplace/guia-lap.eqd/eq168.gif&quot; alt=&quot;eq168&quot; size=&quot;1&quot; vspace=&quot;10&quot; hspace=&quot;30&quot; align=&quot;MIDDLE&quot; /&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="23"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="24"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="10"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="24"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="8"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="5"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list>
+         <reference key="23"></reference>
+        </list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio%20-%20Transformada%20de%20Laplace:Tema%205.%20Propiedades%20de%20las%20transformadas"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="27">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tema 6. Convertir una funcion  a s"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="25">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="26">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="25"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p align=&quot;left&quot;&gt;&lt;span style=&quot;color: #0080ff;&quot;&gt;Ejemplo 1&lt;/span&gt;:  Hallemos la transformada de Laplace de una función constante,  &lt;em&gt;y = A&lt;/em&gt;.&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  Respuesta:  Sin más que utilizar la fórmula expuesta en el modelo matemático, donde sustituímos &lt;em&gt;f(x) &lt;/em&gt;por &lt;em&gt;A&lt;/em&gt; e integramos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/laplace6.gif&quot; alt=&quot;laplace6.gif (612 bytes)&quot; width=&quot;275&quot; height=&quot;49&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  &lt;span style=&quot;color: #0080ff;&quot;&gt;Ejemplo 2&lt;/span&gt;:  Hallemos la transformada de Laplace de una función exponencial inversa,  &lt;i&gt;f(x) = e&lt;sup&gt;-ax&lt;/sup&gt;&lt;/i&gt;.&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  Respuesta:  Utilizamos la fórmula expuesta en el modelo matemático, donde sustituímos &lt;em&gt;f(x) &lt;/em&gt;por su valor e integramos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/laplace7.gif&quot; alt=&quot;laplace7.gif (739 bytes)&quot; width=&quot;346&quot; height=&quot;49&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;br /&gt;&lt;span style=&quot;color: #0080ff;&quot;&gt;  Ejemplo 3&lt;/span&gt;:  Hallemos la transformada de Laplace de la función  &lt;em&gt;f(x) = &lt;/em&gt;sen &lt;span style=&quot;font-family: Symbol;&quot;&gt;w&lt;/span&gt;&lt;em&gt;x,&lt;/em&gt; siendo &lt;span style=&quot;font-family: Symbol;&quot;&gt;w&lt;/span&gt; una constante.&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;Respuesta:  Como siempre, sustituímos &lt;em&gt;f(x)=&lt;/em&gt;sen &lt;span style=&quot;font-family: Symbol;&quot;&gt;w&lt;/span&gt;&lt;em&gt;x &lt;/em&gt;en&lt;em&gt;  &lt;/em&gt;la fórmula &lt;span style=&quot;color: #800040;&quot;&gt;&lt;small&gt;[1] &lt;/small&gt;&lt;/span&gt;e integramos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/laplace8.gif&quot; alt=&quot;laplace8.gif (973 bytes)&quot; width=&quot;479&quot; height=&quot;50&quot; /&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="26"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="27"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="8"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="27"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="5"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="5"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio%20-%20Transformada%20de%20Laplace:Tema%206.%20Convertir%20una%20funcion%20%20a%20s"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="30">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tema 7. Ejercicios resueltos"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="28">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="29">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="28"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list>
+              <unicode value="Transformadas"></unicode>
+             </list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary>
+              <unicode role="key" value="Transformadas"></unicode>
+              <list></list>
+             </dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p align=&quot;left&quot;&gt;&lt;b&gt;Cálculo de transformadas mediante tabla.&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;b&gt;[&lt;a href=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/transform_lapl.htm]&quot;&gt;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/transform_lapl.htm]&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;Para el cálculo de transformadas de Laplace de funciones es conveniente tener disponible una tabla con las transformadas de las funciones más importantes (aquí tiene una &lt;a href=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/tabl_transf.htm&quot;&gt;tabla de transformadas&lt;/a&gt;). Con la ayuda de esta tabla, y mediante las propiedades, podemos hallar la transformada de cualquier función que se nos presente.&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  &lt;span style=&quot;color: #0080ff;&quot;&gt;Ejemplo 4&lt;/span&gt;:  Con la ayuda de la tabla hallemos la transformada de Laplace de la función:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;em&gt;f(x) = 3 + 2 x&lt;/em&gt;²&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  Respuesta: Utilizando la propiedad 1, de linealidad de la transformadas, y con ayuda de la tabla tenemos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tl3.gif&quot; alt=&quot;tl3.gif (748 bytes)&quot; width=&quot;355&quot; height=&quot;45&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;br /&gt;&lt;span style=&quot;color: #0080ff;&quot;&gt;  Ejemplo 5&lt;/span&gt;:  Con la ayuda de la tabla hallemos F(s) para la función &lt;em&gt;f(x) = &lt;/em&gt;2 sen &lt;em&gt;x&lt;/em&gt; + 3 cos &lt;em&gt;2x&lt;/em&gt;.&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  Respuesta: Utilizando la linealidad, y mediante la tabla tenemos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tl4.gif&quot; alt=&quot;tl4.gif (572 bytes)&quot; width=&quot;376&quot; height=&quot;25&quot; /&gt;&lt;br /&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tl5.gif&quot; alt=&quot;tl5.gif (330 bytes)&quot; width=&quot;152&quot; height=&quot;41&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;br /&gt;  &lt;span style=&quot;color: #0080ff;&quot;&gt;Ejemplo 6&lt;/span&gt;: Con la ayuda de la tabla hallar F(s) para la función  &lt;i&gt;f(x) = x e&lt;sup&gt;4x&lt;/sup&gt; &lt;/i&gt;.&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  Respuesta: Teniendo en cuenta &lt;small&gt;(1)&lt;/small&gt; que la transformada de &lt;em&gt;f(x) = x&lt;/em&gt; es &lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tl6.gif&quot; alt=&quot;tl6.gif (183 bytes)&quot; width=&quot;68&quot; height=&quot;35&quot; align=&quot;middle&quot; /&gt;, y &lt;small&gt;(2)&lt;/small&gt; la &lt;a href=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/transform_lapl.htm#Propiedades&quot;&gt;propiedad 2&lt;/a&gt; de las transformadas, tenemos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tl7.gif&quot; alt=&quot;tl7.gif (393 bytes)&quot; width=&quot;190&quot; height=&quot;45&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  &lt;span style=&quot;color: #0080ff;&quot;&gt;Ejemplo 7&lt;/span&gt;:  Con la ayuda de la tabla hallar F(s) para la función  &lt;em&gt;f(x) = x &lt;/em&gt;cos &lt;em&gt;ax&lt;/em&gt; .&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  Respuesta: Según la tabla, la transformada para &lt;em&gt;f(x) = x &lt;/em&gt;cos &lt;em&gt;ax&lt;/em&gt;  es:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tl8.gif&quot; alt=&quot;tl8.gif (220 bytes)&quot; width=&quot;98&quot; height=&quot;32&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;entonces, teniendo en cuenta la &lt;a href=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/transform_lapl.htm#Propiedades&quot;&gt;propiedad 3&lt;/a&gt; de las transformadas, tenemos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tl9.gif&quot; alt=&quot;tl9.gif (626 bytes)&quot; width=&quot;270&quot; height=&quot;56&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;br /&gt;  &lt;span style=&quot;color: #0080ff;&quot;&gt;Ejemplo 8&lt;/span&gt;:  Con la ayuda de la tabla, hallar F(s) para la función  &lt;i&gt;f(x) = e&lt;sup&gt;- 2x&lt;/sup&gt; &lt;/i&gt;sen 5&lt;i&gt;x.&lt;/i&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;em&gt;&lt;i&gt;  &lt;/i&gt;&lt;/em&gt;Respuesta: Según la tabla, la transformada de la función &lt;em&gt;f(x) = &lt;/em&gt;sen 5&lt;em&gt;x&lt;/em&gt; es:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tla.gif&quot; alt=&quot;tla.gif (230 bytes)&quot; width=&quot;99&quot; height=&quot;39&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;y ahora, según la &lt;a href=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/transform_lapl.htm#Propiedades&quot;&gt;propiedad 2&lt;/a&gt;, con &lt;em&gt;a&lt;/em&gt; = -2, tenemos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlb.gif&quot; alt=&quot;tlb.gif (517 bytes)&quot; width=&quot;278&quot; height=&quot;43&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;br /&gt;&lt;span style=&quot;color: #0080ff;&quot;&gt;Ejemplo 9&lt;/span&gt;:  Con la ayuda de la tabla, hallar F(s) para la función:   &lt;i&gt;f(x) = e&lt;sup&gt;-x&lt;/sup&gt; x &lt;/i&gt;cos &lt;i&gt;2x.&lt;/i&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;i&gt;  &lt;/i&gt;Respuesta:  Primeramente hallamos la transformada de la función  &lt;em&gt;f(x) = x &lt;/em&gt;cos 2&lt;em&gt;x&lt;/em&gt;, de forma idéntica al ejemplo 7, con &lt;em&gt;a&lt;/em&gt;=2, tenemos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlc.gif&quot; alt=&quot;tlc.gif (310 bytes)&quot; width=&quot;105&quot; height=&quot;48&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;a continuación, tenemos en cuenta la &lt;a href=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/transform_lapl.htm#Propiedades&quot;&gt;propiedad 2&lt;/a&gt; con &lt;em&gt;a&lt;/em&gt;=-1,&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tld.gif&quot; alt=&quot;tld.gif (652 bytes)&quot; width=&quot;279&quot; height=&quot;53&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;br /&gt;  &lt;span style=&quot;color: #0080ff;&quot;&gt;Ejemplo 10&lt;/span&gt;:  Con la ayuda de la tabla, hallar F(s) para la función: &lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tle.gif&quot; alt=&quot;tle.gif (227 bytes)&quot; width=&quot;97&quot; height=&quot;35&quot; align=&quot;middle&quot; /&gt;.&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;   Respuesta:  Según la tabla, la transformada de la función &lt;em&gt;f&lt;/em&gt;(&lt;em&gt;x&lt;/em&gt;) = sen 3&lt;em&gt;x &lt;/em&gt;es:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlf.gif&quot; alt=&quot;tlf.gif (219 bytes)&quot; width=&quot;89&quot; height=&quot;37&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;ahora utilizando la &lt;a href=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/transform_lapl.htm#Propiedades&quot;&gt;propiedad 4&lt;/a&gt; tenemos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlg.gif&quot; alt=&quot;tlg.gif (1440 bytes)&quot; width=&quot;473&quot; height=&quot;112&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  &lt;br /&gt;  &lt;span style=&quot;color: #0080ff;&quot;&gt;Ejemplo 11&lt;/span&gt;:  Con la ayuda de la tabla hallar la transformada de Laplace para la onda cuadrada de la figura.&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlh.gif&quot; alt=&quot;tlh.gif (695 bytes)&quot; width=&quot;187&quot; height=&quot;145&quot; align=&quot;right&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;   Respuesta:  Se puede apreciar por la figura que la función &lt;em&gt;f(x)&lt;/em&gt; es periódica (de periodo T=2), en concreto, la función puede ser expresada en un periodo en la forma:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tli.gif&quot; alt=&quot;tli.gif (378 bytes)&quot; width=&quot;148&quot; height=&quot;48&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;Por lo tanto, según la &lt;a href=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/transform_lapl.htm#Propiedades&quot;&gt;propiedad 6&lt;/a&gt; para funciones periódicas tenemos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlj.gif&quot; alt=&quot;tlj.gif (482 bytes)&quot; width=&quot;167&quot; height=&quot;67&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;para realizar la integral del numerador debemos partir el intervalo (0,2) en los dos, (0,1) -&lt;small&gt;&lt;span style=&quot;color: #800040;&quot;&gt;en que la función es f(x) =1&lt;/span&gt;&lt;/small&gt;- y (1,2) -&lt;small&gt;&lt;span style=&quot;color: #800040;&quot;&gt;con la función f(x) = -1&lt;/span&gt;&lt;/small&gt;-:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlk.gif&quot; alt=&quot;tlk.gif (1325 bytes)&quot; width=&quot;439&quot; height=&quot;93&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  Por lo tanto:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tll.gif&quot; alt=&quot;tll.gif (1164 bytes)&quot; width=&quot;409&quot; height=&quot;105&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;br /&gt;  &lt;span style=&quot;color: #0080ff;&quot;&gt;Ejemplo 12&lt;/span&gt;:  Con la ayuda de la tabla hallar la transformada de Laplace para la onda en &lt;em&gt;sierra&lt;/em&gt; de la figura. &lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlm.gif&quot; alt=&quot;tlm.gif (879 bytes)&quot; width=&quot;242&quot; height=&quot;127&quot; align=&quot;right&quot; /&gt;&lt;br /&gt;&lt;br /&gt;  Respuesta:  Se puede apreciar por la figura que la función &lt;em&gt;f(x)&lt;/em&gt; es periódica (de periodo T=2&lt;span style=&quot;font-family: Symbol;&quot;&gt;p&lt;/span&gt;), en concreto, la función puede ser expresada en un periodo en la forma:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tln.gif&quot; alt=&quot;tln.gif (466 bytes)&quot; width=&quot;213&quot; height=&quot;49&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;Por lo tanto, según la &lt;a href=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/transform_lapl.htm#Propiedades&quot;&gt;propiedad 6&lt;/a&gt; para funciones periódicas tenemos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlo.gif&quot; alt=&quot;tlo.gif (491 bytes)&quot; width=&quot;164&quot; height=&quot;69&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;para realizar la integral del numerador debemos partir el intervalo (0,2&lt;span style=&quot;font-family: Symbol;&quot;&gt;p&lt;/span&gt;) en los dos, (0,&lt;span style=&quot;font-family: Symbol;&quot;&gt;p&lt;/span&gt;) -&lt;small&gt;&lt;span style=&quot;color: #800040;&quot;&gt;en que la función es f(x) =x&lt;/span&gt;&lt;/small&gt;- y (&lt;span style=&quot;font-family: Symbol;&quot;&gt;p&lt;/span&gt;,2&lt;span style=&quot;font-family: Symbol;&quot;&gt;p&lt;/span&gt;) -&lt;span style=&quot;color: #800040;&quot;&gt;&lt;small&gt;con la función f(x) = 2&lt;span style=&quot;font-family: Symbol;&quot;&gt;p&lt;/span&gt;&lt;/small&gt;&lt;/span&gt;-&lt;span style=&quot;color: #800040;&quot;&gt;&lt;small&gt;x&lt;/small&gt;&lt;/span&gt;-:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlp.gif&quot; alt=&quot;tlp.gif (890 bytes)&quot; width=&quot;458&quot; height=&quot;50&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;por lo tanto tenemos:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlq.gif&quot; alt=&quot;tlq.gif (859 bytes)&quot; width=&quot;376&quot; height=&quot;61&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;br /&gt;&lt;b&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;  14.4&lt;/span&gt;  &lt;a name=&quot;Transformadas&quot;&gt;&lt;/a&gt;Transformadas de la derivada y de la integral de una función.&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;  &lt;span style=&quot;color: #ff80c0;&quot;&gt;I)&lt;/span&gt; Consideremos una función &lt;i&gt;f(x)&lt;/i&gt; cuya transformada de Laplace sea &lt;i&gt;F(s)&lt;/i&gt;, vamos a ver cuál es la transformada de su &lt;em&gt;función derivada&lt;/em&gt; &lt;i&gt;f’(x)&lt;/i&gt;:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlr.gif&quot; alt=&quot;tlr.gif (1435 bytes)&quot; width=&quot;433&quot; height=&quot;97&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;span style=&quot;color: #ff80c0;&quot;&gt;II)&lt;/span&gt; Consideremos una función &lt;i&gt;f(x)&lt;/i&gt; cuya transformada de Laplace sea &lt;i&gt;F(s)&lt;/i&gt;, vamos a ver cuál es la transformada de su función integral &lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tls.gif&quot; alt=&quot;tls.gif (167 bytes)&quot; width=&quot;60&quot; height=&quot;24&quot; /&gt;  :&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.ehu.eus/juancarlos.gorostizaga/apoyo/images/tlt.gif&quot; alt=&quot;tlt.gif (1734 bytes)&quot; width=&quot;513&quot; height=&quot;89&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;Atención a esta pareja de resultados, que serán fundamentales a la hora de resolver ecuaciones diferenciales con coeficientes constantes.&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="29"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="30"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="11"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="30"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="7"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="5"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list>
+         <reference key="29"></reference>
+        </list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio%20-%20Transformada%20de%20Laplace:Tema%207.%20Ejercicios%20resueltos"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="10"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="13"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="16"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="27"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="21"></reference>
+   <unicode role="key" value="7"></unicode>
+   <reference key="30"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="24"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value="Base"></string>
+  <string role="key" value="anchor_fields"></string>
+  <list>
+   <reference key="9"></reference>
+   <reference key="12"></reference>
+   <reference key="20"></reference>
+   <reference key="23"></reference>
+   <reference key="29"></reference>
+  </list>
+  <string role="key" value="anchor_nodes"></string>
+  <list>
+   <reference key="10"></reference>
+   <reference key="13"></reference>
+   <reference key="21"></reference>
+   <reference key="24"></reference>
+   <reference key="30"></reference>
+  </list>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="27"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value="Juan Rios, Alexander Arias, Mauricio Correa"></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value="La Transformada de Laplace permite convertir un sistema de tiempo (t) a frecuencia (s)"></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value="Transformada de Laplace"></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="16"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="creative commons: attribution 4.0"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="other"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="school"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.descriptionSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="La Transformada de Laplace permite convertir un sistema de tiempo (t) a frecuencia (s)"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Transformada de Laplace"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2019-04-01T14:46:21.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Juan Rios, Alexander Arias, Mauricio Correa EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2019-04-01T14:40:18.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Juan Rios, Alexander Arias, Mauricio Correa EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <none></none>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="yes"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="presencial"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="classroom"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.descriptionSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="La Transformada de Laplace permite convertir un sistema de tiempo (t) a frecuencia (s)"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Transformada de Laplace"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2019-04-01T14:46:21.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Juan Rios, Alexander Arias, Mauricio Correa EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2019-04-01T14:40:18.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Juan Rios, Alexander Arias, Mauricio Correa EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Default"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="creative commons: attribution"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary>
+   <string role="key" value="127b060176c43245fe420cfa81745e25"></string>
+   <list>
+    <reference key="17"></reference>
+    <reference key="31"></reference>
+    <reference key="32"></reference>
+   </list>
+   <string role="key" value="a8f97c0a72e1b3a1b27d8f7e55e275ea"></string>
+   <list>
+    <reference key="18"></reference>
+    <reference key="33"></reference>
+    <reference key="34"></reference>
+    <reference key="35"></reference>
+   </list>
+   <string role="key" value="f607835141e22881723aff5a05927d3a"></string>
+   <list>
+    <reference key="7"></reference>
+    <reference key="36"></reference>
+   </list>
+  </dictionary>
+  <string role="key" value="root"></string>
+  <reference key="3"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="INTEF"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>
